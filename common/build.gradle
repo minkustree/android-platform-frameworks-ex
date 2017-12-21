@@ -1,12 +1,12 @@
 apply plugin: 'android-library'
-apply plugin: 'logtags'
+//apply plugin: 'logtags'
 
 android {
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
             java.srcDirs = ['java']
-            logtags.srcDirs = ['java']
+  //          logtags.srcDirs = ['java']
         }
     }
 
